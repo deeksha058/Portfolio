@@ -10,63 +10,51 @@ body {
   }
   
   h1 {
-    margin: 50px auto 0 auto;
-    font-size: 4rem;
+   
+    font-size: 6rem;
     font-family: 'IM Fell English SC', serif;
     color: #fca652;
     line-height: 2;
   }
   
   h2 {
+    font-size: 4rem;
     font-family: 'IM Fell English SC', serif;
     color: #c56183;
   }
   
   p {
+    font-size: 3rem;
+    color: #3D2C8D;
     font-family: 'Ephesis', cursive;
   }
   
-  .heading {
-    font-family: 'Lobster', cursive;
-    font-size: 2.5rem;
-    margin-top: 0;
-    color: #ac4b1c;
-    font-weight: normal;
-  }
   
   h3 {
-    color: #fca652
+    font-size: 2rem;
+    color: #091353
   }
   
   .top-container {
     background-color: #212121;
     padding-top: 5%;
   }
-  .middle-container {
+  .mid-container{
     background-color: #6D9886;
     padding-top: 0%;
   }
+  .middle-container {
+    background-color: #D9CAB3;
+    padding-top: 0%;
+  }
+  .bottom-container{
+    background-color: #FAEEE0;
+    padding-top: 0%;
+  }
   .skill-row{width: 50%;
-    
+    font-size: 1rem;
     margin:10px auto 10px auto;
     text-align: left;
     line-height: 2;
   }
-  .icons-img{width: 15%;}
-  .CS{width: 15%;
-  float: left;
-  margin-right: 30px;}
   
-  .middfont-family .bottom-container .web {
-    text-decoration: underline;
-  }
-  
-  .bottom-cloud {
-    position: absolute;
-    left: 300px;
-  }
-  
-  .top-cloud {
-    position: relative;
-    left: 200px;
-  }
