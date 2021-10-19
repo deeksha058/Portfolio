@@ -1,60 +1,240 @@
-body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-  }
-  img {
-    width: 300 px;
-    height: 150px;
-    border-radius: 10px;
-  }
-  
-  h1 {
-   
-    font-size: 6rem;
-    font-family: 'IM Fell English SC', serif;
-    color: #fca652;
-    line-height: 2;
-  }
-  
-  h2 {
-    font-size: 4rem;
-    font-family: 'IM Fell English SC', serif;
-    color: #c56183;
-  }
-  
-  p {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dancing Script', cursive;
+}
+.main { 
+  background: linear-gradient(to right,pink,#8ecdff);
+  padding: 2px;
+}
+nav{
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}.logo{
+  flex-basis: 20%;
+}
+.logo img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.nav-links ul li a{
+  text-decoration: none;
+}
+.image {
+  width: 300px;
+}
+
+img{
+  padding: 2px;
+   top: 100px;
+    height: 400px;
+    margin-left: 10px;
+}
+.i{
+  padding: 20px;
+}
+ .contect{
+   margin-right: 300px;
+ }
+.my {
+   text-align: center;
+   margin-top: 20px;
+   font-family: 'IM Fell English SC', serif;
+ 
     font-size: 3rem;
-    color: #3D2C8D;
-    font-family: 'Ephesis', cursive;
-  }
-  
-  
-  h3 {
-    font-size: 2rem;
-    color: #091353
-  }
-  
-  .top-container {
-    background-color: #212121;
-    padding-top: 5%;
-  }
-  .mid-container{
-    background-color: #6D9886;
-    padding-top: 0%;
-  }
-  .middle-container {
-    background-color: #D9CAB3;
-    padding-top: 0%;
-  }
-  .bottom-container{
-    background-color: #FAEEE0;
-    padding-top: 0%;
-  }
-  .skill-row{width: 50%;
-    font-size: 1rem;
-    margin:10px auto 10px auto;
-    text-align: left;
     line-height: 2;
+ 
+  }
+  img{
+    display: flex;
+    width: 300 px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .hello2{
+    margin-left:70px;
+    padding: 20px;
+  }
+  p    {
+    font-family: 'Trebuchet MS', sans-serif;
+
+    margin-left: 20px;
+     color: #091353; 
+    font-size: 1.5rem;
+    padding: 4px;
+  }
+  .container{
+    justify-content: center;
+     height: 100%;
+     width: 100%;
+     align-items: center;
+     display: flex;
+ }
+ 
+ .fab{
+      color: #115572;
+      align-items: center;
+     padding-bottom: 1vw;
+     padding-left: 2vw;
+     padding-right: 1vw;
+ }
+ .hello3{
+  margin-left: 50px;
+}
+.hello4{
+  padding: 20px;
+  margin-left: 100px;
+    font-size: 2rem; 
+}
+#pic{
+  display: flex;
+}
+#pic img{
+  width: 200;
+  height: 100px;
+  margin-left: 0px;
+}
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color: white;
+}
+.h{
+  margin-left: 170px;
+}
+.hh{
+  margin-left: 100px;
+}
+.hello5{
+  padding: 20px;
+  margin-left: 70px;
+}
+@media (min-width:1024px){
+  .image {
+    width: 400px;
+  }
+  .contect{
+    margin-right: 300px;
+  }
+ .my {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'IM Fell English SC', serif;
+  
+     font-size: 5rem;
+     line-height: 2;
+  
+   }
+   img{
+     display: flex;
+     width: 300 px;
+     height: 300px;
+     border-radius: 10px;
+     justify-content: center;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .about{
+     text-align: center;
+     margin-top: 20px;
+     font-size: 3rem;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .hello2{
+     margin-left:650px;
+     padding: 20px;
+   }
+   p    {
+     font-family: 'Trebuchet MS', sans-serif;
+     margin-left: 20px;
+      color: #091353; 
+     font-size: 1.5rem;
+     padding: 4px;
+   }
+   .hello3{
+     padding: 20px;
+     margin-left: 500px;
+   }
+   .container{
+     justify-content: center;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      display: flex;
   }
   
+  .fab{
+       color: #115572;
+       align-items: center;
+      padding-bottom: 1vw;
+      padding-left: 2vw;
+      padding-right: 1vw;
+  }
+  .hello3{
+   padding: 20px;
+   margin-left: 500px;
+ }
+ .hello4{
+   padding: 20px;
+   margin-left: 100px;
+     font-size: 2rem; 
+ }
+ #pic{
+   display: flex;
+ }
+ #pic img{
+   width: 475px;
+   height: 300px;
+   margin-left: 0px;
+ }
+ #intro{
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   color: white;
+ }
+ .h{
+   margin-left: 780px;
+ }
+ .hh{
+   margin-left: 680px;
+ }
+ .hello5{
+   padding: 20px;
+   margin-left: 620px;
+ }
+ .oo{
+
+  font-size: 1.5rem; 
+ }
+ .bottom{
+   padding:20px;
+ }
+}
